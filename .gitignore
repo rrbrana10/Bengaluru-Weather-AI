@@ -1,0 +1,16 @@
+# Environments (The biggest folders you MUST ignore)
+venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large data files (Optional - only if they are very big)
+# Bengaluru_2000-2026_weather.csv
