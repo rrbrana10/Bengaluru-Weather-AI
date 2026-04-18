@@ -52,9 +52,3 @@ print("Training Model...")
 model.fit(X_train, y_train, epochs=15, batch_size=32, validation_data=(X_test, y_test))
 model.save('weather_model.h5')
 print("Saved: weather_model.h5 and scaler.pkl")
-
-
-# Save the numerical results of every epoch cycle
-history_df = pd.DataFrame(history.history)
-history_df.to_csv('training_metrics.csv', index=False)
-print("Success: Epoch metrics saved to training_metrics.csv")
